@@ -6,12 +6,11 @@ using System.Threading.Tasks;
 
 namespace TestTeamCityConsoleProj
 {
-    class Program
+    public class Class1
     {
-        static void Main(string[] args)
+        public int Foo(int a, int b)
         {
-            Class1 cl = new Class1();
-            Console.WriteLine(cl.Foo(1, 3));
+            return a + b;
         }
     }
 }
