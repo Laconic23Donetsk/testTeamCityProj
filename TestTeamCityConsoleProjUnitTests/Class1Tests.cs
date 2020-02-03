@@ -11,19 +11,20 @@ namespace TestTeamCityConsoleProjUnitTests
     [TestFixture]
     public class Class1Tests
     {
-        [Test]
-        public void Foo_WhenCalled_ShouldPass()
+        [TestCase(5, 3, 8)]
+        [TestCase(0, 0, 0)]
+        [TestCase(1, 1, 2)]
+        [TestCase(-15, 10, -5)]
+        public void Foo_WhenCalled_ShouldPass(int a, int b, int expected)
         {
             //Arrange
-            int a = 5;
-            int b = 3;
             Class1 cl = new Class1();
 
             //Act
             var actual = cl.Foo(a, b);
 
             //Assert
-            Assert.AreEqual(8, actual);
+            Assert.AreEqual(expected, actual);
         }
     }
 }
