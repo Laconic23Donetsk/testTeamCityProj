@@ -29,4 +29,4 @@ namespace TestTeamCityConsoleProjUnitTests
     }
 }
 
-/* comment to check if master branch will be rebuild or not */
+/* comment to check if master branch will be rebuild or not 2*/
