@@ -26,5 +26,7 @@ namespace TestTeamCityConsoleProjUnitTests
             //Assert
             Assert.AreEqual(expected, actual);
         }
+
+        /*This is a comment that should not be merged into master branch */
     }
 }
