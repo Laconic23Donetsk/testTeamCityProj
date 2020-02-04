@@ -28,3 +28,4 @@ namespace TestTeamCityConsoleProjUnitTests
         }
     }
 }
+/* Test build */
